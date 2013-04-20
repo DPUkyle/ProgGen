@@ -88,11 +88,12 @@ class ProgGen {
       var time = theRow.getCell(timeIndex).StringCellValue
       var channel : TVStationEnum = TVStationEnum.valueOf(theRow.getCell(channelIndex).StringCellValue)
 
-      var titleString = "MLB Baseball: Cubs " + (opponent.contains("@") ? "Cubs at ${opponent.remove("@")}" : opponent)
+      var titleString = "MLB Baseball: Cubs " + (opponent.contains("@") ? "at ${opponent.remove("@")}" : opponent)
+      var episodeString = gameNumber as String
       var dateTimeString = date + " " + time + " CDT"
 
       if(time != "TBD" and channel != WCIU) {
-        print(new Schedule().renderToString(titleString, gameNumber as String, dateTimeString, channel.ChannelNumber as String, "12600"))
+        print(new Schedule().renderToString(titleString, episodeString, dateTimeString, channel.ChannelNumber as String, "12600"))
       }
     }
 
