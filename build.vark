@@ -9,5 +9,5 @@ uses com.kylemoore.ProgGen
  */
 @Target
 function Run() {
-  ProgGen.Main({"empty", "ignore me"}) //var hw = new HelloWorld()
+  var pg = new ProgGen()
 }

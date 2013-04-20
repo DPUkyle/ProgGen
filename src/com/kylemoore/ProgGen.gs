@@ -18,24 +18,32 @@ class ProgGen {
 
   private static var _logger : Logger as readonly logger
 
-  static function Main(args : String[]) : void {
-    var msg = "Hi"
-    print("Hello woild!")
-    var s = new Schedule()
-    print(s.renderToString( "wow" ))
+//  static function Main(args : String[]) : void {
+//    var msg = "Hi"
+//    print("Hello woild!")
+//    var s = new Schedule()
+//    print(s.renderToString( "wow" ))
 
     // make new program with properties {title:"Test1", start time:date "Friday, April 19, 2013 7:10:00 PM CST", channel number:"1180", duration:12600, episode:"something"}
 
-  }
+//  }
 
-  private construct() {
+  construct() {
     _logger = LogManager.getLogger("") // root logger
+    init()
   }
 
-  public static function init() : void {
-    this()
+  private function init() {
 
-
+    var msg = "Hello worlddd"
+    print("Error enabled? ${logger.ErrorEnabled}")
+    print("Debug enabled? ${logger.DebugEnabled}")
+    print("Warn enabled? ${logger.WarnEnabled}")
+    print("Info enabled? ${logger.InfoEnabled}")
+    logger.error(msg)
+    logger.debug(msg)
+    logger.warn(msg)
+    logger.info(msg)
   }
 
 }
