@@ -3,6 +3,13 @@ package com.kylemoore
 uses com.kylemoore.Schedule
 uses org.apache.logging.log4j.Logger
 uses org.apache.logging.log4j.LogManager
+uses java.io.FileInputStream
+uses org.apache.poi.hssf.usermodel.HSSFCell
+uses org.apache.poi.hssf.usermodel.HSSFDateUtil
+uses org.apache.poi.hssf.usermodel.HSSFRow
+uses org.apache.poi.hssf.usermodel.HSSFSheet
+uses org.apache.poi.hssf.usermodel.HSSFWorkbook
+uses sun.nio.ch.ChannelInputStream
 
 /**
  * Created with IntelliJ IDEA.
@@ -36,14 +43,39 @@ class ProgGen {
   private function init() {
 
     var msg = "Hello worlddd"
-    print("Error enabled? ${logger.ErrorEnabled}")
-    print("Debug enabled? ${logger.DebugEnabled}")
-    print("Warn enabled? ${logger.WarnEnabled}")
-    print("Info enabled? ${logger.InfoEnabled}")
-    logger.error(msg)
-    logger.debug(msg)
-    logger.warn(msg)
-    logger.info(msg)
+    logger.info("About to load data file")
+    var myxls = new FileInputStream("resources/2013_TV_Schedule.xls")
+    var wb : HSSFWorkbook = new HSSFWorkbook(myxls)
+    var sheet : HSSFSheet = wb.getSheetAt(0)
+    var rows : List<HSSFRow> = sheet.rowIterator().toList() as List<HSSFRow>
+
+    var gameNumberIndex : int
+    var dateIndex : int
+    var opponentIndex : int
+    var timeIndex : int
+    var channelIndex : int
+
+    //special handling for the header row
+    var headerRow : HSSFRow = rows.first()
+    var headerCells : List<HSSFCell> = headerRow.cellIterator().toList() as List<HSSFCell>
+    headerCells.each( \ cell -> {
+      if(cell.isString) {
+        switch(cell.StringCellValue) {
+          case "GameNumber" : gameNumberIndex = cell.ColumnIndex
+          case "Date"       : dateIndex = cell.ColumnIndex
+          case "Opponent  " : opponentIndex = cell.ColumnIndex
+          case "Time"       : timeIndex = cell.ColumnIndex
+          case "Channel"    : channelIndex = cell.ColumnIndex
+        }
+      }
+    } )
+  print(gameNumberIndex)
+  print(dateIndex)
+  print(opponentIndex)
+  print(timeIndex)
+  print(channelIndex)
+
+
   }
 
 }

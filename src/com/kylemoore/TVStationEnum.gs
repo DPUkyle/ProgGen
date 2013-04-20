@@ -19,4 +19,3 @@ final enum TVStationEnum {
   }
 
 }
-
