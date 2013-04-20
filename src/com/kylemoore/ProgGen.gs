@@ -1,6 +1,9 @@
 package com.kylemoore
 
 uses com.kylemoore.Schedule
+uses org.apache.logging.log4j.Logger
+uses org.apache.logging.log4j.LogManager
+
 /**
  * Created with IntelliJ IDEA.
  * User: kmoore
@@ -13,14 +16,25 @@ uses com.kylemoore.Schedule
  */
 class ProgGen {
 
+  private static var _logger : Logger as readonly logger
+
   static function Main(args : String[]) : void {
     var msg = "Hi"
     print("Hello woild!")
     var s = new Schedule()
     print(s.renderToString( "wow" ))
 
-
     // make new program with properties {title:"Test1", start time:date "Friday, April 19, 2013 7:10:00 PM CST", channel number:"1180", duration:12600, episode:"something"}
+
+  }
+
+  private construct() {
+    _logger = LogManager.getLogger("") // root logger
+  }
+
+  public static function init() : void {
+    this()
+
 
   }
 
