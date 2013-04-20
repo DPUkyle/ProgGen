@@ -11,6 +11,8 @@ uses org.apache.poi.hssf.usermodel.HSSFSheet
 uses org.apache.poi.hssf.usermodel.HSSFWorkbook
 uses sun.nio.ch.ChannelInputStream
 uses java.util.concurrent.ScheduledExecutorService
+uses com.sun.org.apache.xpath.internal.operations.Variable
+uses javax.swing.border.TitledBorder
 
 /**
  * Created with IntelliJ IDEA.
@@ -75,7 +77,16 @@ class ProgGen {
     //now loop and generate a template for each row's data
     for(i in 1..|rows.Count) {
       var theRow = rows.get(i)
-      print(new Schedule().renderToString(theRow.getCell(dateIndex).StringCellValue))
+      var gameNumber = theRow.getCell(gameNumberIndex).StringCellValue
+      var date = theRow.getCell(dateIndex).StringCellValue
+      var opponent = theRow.getCell(opponentIndex).StringCellValue
+      var time = theRow.getCell(timeIndex).StringCellValue
+      var channel : TVStationEnum = TVStationEnum.valueOf(theRow.getCell(channelIndex).StringCellValue)
+
+      var titleString = "MLB Baseball: Cubs ${opponent}"
+      var dateTimeString = date + " " + time + " CDT"
+
+      print(new Schedule().renderToString(titleString, gameNumber, dateTimeString, channel.ChannelNumber as String, "12600"))
     }
 
   }

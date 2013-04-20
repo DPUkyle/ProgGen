@@ -1,8 +1,2 @@
-<%@ params( myParam: String ) %>
-
-The content of my param is: ${myParam}!
-
-Note you can render this template from a class or program
-simply by calling one of its render methods:
-
-  Schedule.renderToString( "wow" )
+<%@ params( title : String, episode : String, startTime : String, channelNumber : String, duration : String ) %>
+Got params title: ${title}, episode: ${episode}, startTime: ${startTime}, channelNumber: ${channelNumber} and duration: ${duration}
