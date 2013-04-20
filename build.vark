@@ -8,6 +8,6 @@ uses com.kylemoore.ProgGen
  * Simple build target to instantiate a Gosu class
  */
 @Target
-function helloWorld() {
-  var hw = new HelloWorld()
+function Run() {
+  ProgGen.Main({"empty", "ignore me"}) //var hw = new HelloWorld()
 }
