@@ -10,6 +10,7 @@ uses org.apache.poi.hssf.usermodel.HSSFRow
 uses org.apache.poi.hssf.usermodel.HSSFSheet
 uses org.apache.poi.hssf.usermodel.HSSFWorkbook
 uses sun.nio.ch.ChannelInputStream
+uses java.util.concurrent.ScheduledExecutorService
 
 /**
  * Created with IntelliJ IDEA.
@@ -61,21 +62,21 @@ class ProgGen {
     headerCells.each( \ cell -> {
       if(cell.isString) {
         switch(cell.StringCellValue) {
-          case "GameNumber" : gameNumberIndex = cell.ColumnIndex
-          case "Date"       : dateIndex = cell.ColumnIndex
-          case "Opponent  " : opponentIndex = cell.ColumnIndex
-          case "Time"       : timeIndex = cell.ColumnIndex
-          case "Channel"    : channelIndex = cell.ColumnIndex
+          case "GameNumber" : gameNumberIndex = cell.ColumnIndex; break
+          case "Date"       : dateIndex = cell.ColumnIndex; break
+          case "Opponent"   : opponentIndex = cell.ColumnIndex; break
+          case "Time"       : timeIndex = cell.ColumnIndex; break
+          case "Channel"    : channelIndex = cell.ColumnIndex; break
+          default           : logger.error("Couldn't find a match for '${cell.StringCellValue}'")
         }
       }
     } )
-  print(gameNumberIndex)
-  print(dateIndex)
-  print(opponentIndex)
-  print(timeIndex)
-  print(channelIndex)
 
+    //now loop and generate a template for each row's data
+    for(i in 1..|rows.Count) {
+      var theRow = rows.get(i)
+      print(new Schedule().renderToString(theRow.getCell(dateIndex).StringCellValue))
+    }
 
   }
-
 }
