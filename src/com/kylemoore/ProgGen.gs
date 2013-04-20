@@ -64,11 +64,16 @@ class ProgGen {
     headerCells.each( \ cell -> {
       if(cell.isString) {
         switch(cell.StringCellValue) {
-          case "GameNumber" : gameNumberIndex = cell.ColumnIndex; break
-          case "Date"       : dateIndex = cell.ColumnIndex; break
-          case "Opponent"   : opponentIndex = cell.ColumnIndex; break
-          case "Time"       : timeIndex = cell.ColumnIndex; break
-          case "Channel"    : channelIndex = cell.ColumnIndex; break
+          case "GameNumber" : gameNumberIndex = cell.ColumnIndex
+                              break
+          case "Date"       : dateIndex = cell.ColumnIndex
+                              break
+          case "Opponent"   : opponentIndex = cell.ColumnIndex
+                              break
+          case "Time"       : timeIndex = cell.ColumnIndex
+                              break
+          case "Channel"    : channelIndex = cell.ColumnIndex
+                              break
           default           : logger.error("Couldn't find a match for '${cell.StringCellValue}'")
         }
       }
@@ -77,16 +82,18 @@ class ProgGen {
     //now loop and generate a template for each row's data
     for(i in 1..|rows.Count) {
       var theRow = rows.get(i)
-      var gameNumber = theRow.getCell(gameNumberIndex).StringCellValue
+      var gameNumber = theRow.getCell(gameNumberIndex).NumericCellValue as int
       var date = theRow.getCell(dateIndex).StringCellValue
       var opponent = theRow.getCell(opponentIndex).StringCellValue
       var time = theRow.getCell(timeIndex).StringCellValue
       var channel : TVStationEnum = TVStationEnum.valueOf(theRow.getCell(channelIndex).StringCellValue)
 
-      var titleString = "MLB Baseball: Cubs ${opponent}"
+      var titleString = "MLB Baseball: Cubs " + (opponent.contains("@") ? "Cubs at ${opponent.remove("@")}" : opponent)
       var dateTimeString = date + " " + time + " CDT"
 
-      print(new Schedule().renderToString(titleString, gameNumber, dateTimeString, channel.ChannelNumber as String, "12600"))
+      if(time != "TBD" and channel != WCIU) {
+        print(new Schedule().renderToString(titleString, gameNumber as String, dateTimeString, channel.ChannelNumber as String, "12600"))
+      }
     }
 
   }
