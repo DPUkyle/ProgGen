@@ -1,3 +1,15 @@
 Gosu project to do AppleScript codegen.
 
 Goal is to script the generation of EyeTV schedules data-driven by screen-scraped content.
+
+2014 addendum:
+When screen-scraping the schedule, the Date and Time columns needed special formatting.  I pasted each excel column individually into Sublime Text.
+
+Date:
+Using Sublime Text's multiple line edit feature, it was easy to put ", 2014" at the end of each date value.
+
+Time:
+Also using the multiple line edit, add seconds to each time so all end with :SS
+Finally, use this regex-replace to ensure all hour values have a leading zero:
+Match:      ^(\d\:)
+Replace:    0\1
