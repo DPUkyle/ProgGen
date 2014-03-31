@@ -1,0 +1,314 @@
+Buildfile: /Users/kmoore/Documents/ProgGen/build.vark
+Done parsing Aardvark buildfile in 1000 ms
+
+-run:
+19:46:39.110 INFO  - About to load data file
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Monday, March 31, 2014 12:05:00 PM CDT", channel number:"1180", duration:12600, episode:"1 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Wednesday, April 2, 2014 06:05:00 PM CDT", channel number:"1742", duration:12600, episode:"2 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Thursday, April 3, 2014 11:35:00 AM CDT", channel number:"1741", duration:12600, episode:"3 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Philadelphia", start time:date "Friday, April 4, 2014 01:20:00 PM CDT", channel number:"1180", duration:12600, episode:"4 Cubs vs. Philadelphia"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Philadelphia", start time:date "Saturday, April 5, 2014 01:20:00 PM CDT", channel number:"1741", duration:12600, episode:"5 Cubs vs. Philadelphia"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Philadelphia", start time:date "Sunday, April 6, 2014 01:20:00 PM CDT", channel number:"1180", duration:12600, episode:"6 Cubs vs. Philadelphia"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Tuesday, April 8, 2014 07:05:00 PM CDT", channel number:"1741", duration:12600, episode:"7 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Wednesday, April 9, 2014 07:05:00 PM CDT", channel number:"1180", duration:12600, episode:"8 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Thursday, April 10, 2014 01:20:00 PM CDT", channel number:"1180", duration:12600, episode:"9 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Friday, April 11, 2014 07:15:00 PM CDT", channel number:"1742", duration:12600, episode:"10 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Saturday, April 12, 2014 01:15:00 PM CDT", channel number:"1741", duration:12600, episode:"11 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Sunday, April 13, 2014 01:15:00 PM CDT", channel number:"1180", duration:12600, episode:"12 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at NY Yankees", start time:date "Tuesday, April 15, 2014 06:05:00 PM CDT", channel number:"1741", duration:12600, episode:"13 Cubs at NY Yankees"}
+
+make new program with properties {title:"MLB Baseball: Cubs at NY Yankees", start time:date "Wednesday, April 16, 2014 06:05:00 PM CDT", channel number:"1180", duration:12600, episode:"14 Cubs at NY Yankees"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Friday, April 18, 2014 01:20:00 PM CDT", channel number:"1180", duration:12600, episode:"15 Cubs vs. Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Saturday, April 19, 2014 01:20:00 PM CDT", channel number:"1741", duration:12600, episode:"16 Cubs vs. Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Arizona", start time:date "Monday, April 21, 2014 07:05:00 PM CDT", channel number:"1741", duration:12600, episode:"18 Cubs vs. Arizona"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Arizona", start time:date "Tuesday, April 22, 2014 07:05:00 PM CDT", channel number:"1741", duration:12600, episode:"19 Cubs vs. Arizona"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Arizona", start time:date "Wednesday, April 23, 2014 01:20:00 PM CDT", channel number:"1180", duration:12600, episode:"20 Cubs vs. Arizona"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Arizona", start time:date "Thursday, April 24, 2014 01:20:00 PM CDT", channel number:"1180", duration:12600, episode:"21 Cubs vs. Arizona"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Friday, April 25, 2014 07:10:00 PM CDT", channel number:"1741", duration:12600, episode:"22 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Saturday, April 26, 2014 06:10:00 PM CDT", channel number:"1180", duration:12600, episode:"23 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Sunday, April 27, 2014 01:10:00 PM CDT", channel number:"1180", duration:12600, episode:"24 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Tuesday, April 29, 2014 06:10:00 PM CDT", channel number:"1741", duration:12600, episode:"26 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Wednesday, April 30, 2014 06:10:00 PM CDT", channel number:"1741", duration:12600, episode:"27 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Friday, May 2, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"28 Cubs vs. St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Saturday, May 3, 2014 12:05 PM CDT", channel number:"1741", duration:12600, episode:"29 Cubs vs. St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Sunday, May 4, 2014 07:05 PM CDT", channel number:"1602", duration:12600, episode:"30 Cubs vs. St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Chi White Sox", start time:date "Monday, May 5, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"31 Cubs vs. Chi White Sox"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Chi White Sox", start time:date "Tuesday, May 6, 2014 07:05 PM CDT", channel number:"1180", duration:12600, episode:"32 Cubs vs. Chi White Sox"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Chi White Sox", start time:date "Wednesday, May 7, 2014 07:10 PM CDT", channel number:"1741", duration:12600, episode:"33 Cubs at Chi White Sox"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Chi White Sox", start time:date "Thursday, May 8, 2014 07:10 PM CDT", channel number:"1180", duration:12600, episode:"34 Cubs at Chi White Sox"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Atlanta", start time:date "Friday, May 9, 2014 06:35 PM CDT", channel number:"1741", duration:12600, episode:"35 Cubs at Atlanta"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Atlanta", start time:date "Saturday, May 10, 2014 06:10 PM CDT", channel number:"1180", duration:12600, episode:"36 Cubs at Atlanta"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Atlanta", start time:date "Sunday, May 11, 2014 12:35 PM CDT", channel number:"1180", duration:12600, episode:"37 Cubs at Atlanta"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Monday, May 12, 2014 07:10 PM CDT", channel number:"1741", duration:12600, episode:"38 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Wednesday, May 14, 2014 07:15 PM CDT", channel number:"1741", duration:12600, episode:"40 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Thursday, May 15, 2014 12:45 PM CDT", channel number:"1741", duration:12600, episode:"41 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Friday, May 16, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"42 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Saturday, May 17, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"43 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Sunday, May 18, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"44 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Yankees", start time:date "Tuesday, May 20, 2014 07:05 PM CDT", channel number:"1180", duration:12600, episode:"45 Cubs vs. NY Yankees"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Yankees", start time:date "Wednesday, May 21, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"46 Cubs vs. NY Yankees"}
+
+make new program with properties {title:"MLB Baseball: Cubs at San Diego", start time:date "Thursday, May 22, 2014 09:10 PM CDT", channel number:"1741", duration:12600, episode:"47 Cubs at San Diego"}
+
+make new program with properties {title:"MLB Baseball: Cubs at San Diego", start time:date "Friday, May 23, 2014 09:10 PM CDT", channel number:"1180", duration:12600, episode:"48 Cubs at San Diego"}
+
+make new program with properties {title:"MLB Baseball: Cubs at San Diego", start time:date "Saturday, May 24, 2014 09:10 PM CDT", channel number:"1180", duration:12600, episode:"49 Cubs at San Diego"}
+
+make new program with properties {title:"MLB Baseball: Cubs at San Diego", start time:date "Sunday, May 25, 2014 03:10 PM CDT", channel number:"1180", duration:12600, episode:"50 Cubs at San Diego"}
+
+make new program with properties {title:"MLB Baseball: Cubs at San Francisco", start time:date "Monday, May 26, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"51 Cubs at San Francisco"}
+
+make new program with properties {title:"MLB Baseball: Cubs at San Francisco", start time:date "Tuesday, May 27, 2014 09:15 PM CDT", channel number:"1741", duration:12600, episode:"52 Cubs at San Francisco"}
+
+make new program with properties {title:"MLB Baseball: Cubs at San Francisco", start time:date "Wednesday, May 28, 2014 02:45 PM CDT", channel number:"1741", duration:12600, episode:"53 Cubs at San Francisco"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Friday, May 30, 2014 07:10 PM CDT", channel number:"1180", duration:12600, episode:"54 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Saturday, May 31, 2014 03:10 PM CDT", channel number:"1741", duration:12600, episode:"55 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Sunday, June 1, 2014 01:10 PM CDT", channel number:"1180", duration:12600, episode:"56 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Mets", start time:date "Tuesday, June 3, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"57 Cubs vs. NY Mets"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Mets", start time:date "Wednesday, June 4, 2014 07:05 PM CDT", channel number:"1180", duration:12600, episode:"58 Cubs vs. NY Mets"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Mets", start time:date "Thursday, June 5, 2014 06:05 PM CDT", channel number:"1741", duration:12600, episode:"59 Cubs vs. NY Mets"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Miami", start time:date "Friday, June 6, 2014 03:05 PM CDT", channel number:"1741", duration:12600, episode:"60 Cubs vs. Miami"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Miami", start time:date "Saturday, June 7, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"61 Cubs vs. Miami"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Miami", start time:date "Sunday, June 8, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"62 Cubs vs. Miami"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Tuesday, June 10, 2014 06:05 PM CDT", channel number:"1741", duration:12600, episode:"64 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Wednesday, June 11, 2014 06:05 PM CDT", channel number:"1741", duration:12600, episode:"65 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Thursday, June 12, 2014 06:05 PM CDT", channel number:"1180", duration:12600, episode:"66 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Philadelphia", start time:date "Friday, June 13, 2014 06:05 PM CDT", channel number:"1180", duration:12600, episode:"67 Cubs at Philadelphia"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Philadelphia", start time:date "Saturday, June 14, 2014 02:05 PM CDT", channel number:"1741", duration:12600, episode:"68 Cubs at Philadelphia"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Philadelphia", start time:date "Sunday, June 15, 2014 12:35 PM CDT", channel number:"1180", duration:12600, episode:"69 Cubs at Philadelphia"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Miami", start time:date "Monday, June 16, 2014 06:10 PM CDT", channel number:"1741", duration:12600, episode:"70 Cubs at Miami"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Miami", start time:date "Tuesday, June 17, 2014 06:10 PM CDT", channel number:"1180", duration:12600, episode:"71 Cubs at Miami"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Miami", start time:date "Wednesday, June 18, 2014 11:40 AM CDT", channel number:"1741", duration:12600, episode:"72 Cubs at Miami"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Friday, June 20, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"73 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Saturday, June 21, 2014 06:15 PM CDT", channel number:"1180", duration:12600, episode:"74 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Sunday, June 22, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"75 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Tuesday, June 24, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"77 Cubs vs. Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Wednesday, June 25, 2014 06:05 PM CDT", channel number:"1180", duration:12600, episode:"78 Cubs vs. Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Washington", start time:date "Thursday, June 26, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"79 Cubs vs. Washington"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Washington", start time:date "Friday, June 27, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"80 Cubs vs. Washington"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Washington", start time:date "Saturday, June 28, 2014 12:05 PM CDT", channel number:"1180", duration:12600, episode:"81 Cubs vs. Washington"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Washington", start time:date "Saturday, June 28, 2014 06:15 PM CDT", channel number:"1180", duration:12600, episode:"82 Cubs vs. Washington"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Boston", start time:date "Monday, June 30, 2014 06:10 PM CDT", channel number:"1741", duration:12600, episode:"83 Cubs at Boston"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Boston", start time:date "Tuesday, July 1, 2014 06:10 PM CDT", channel number:"1741", duration:12600, episode:"84 Cubs at Boston"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Washington", start time:date "Friday, July 4, 2014 10:05 AM CDT", channel number:"1180", duration:12600, episode:"86 Cubs at Washington"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Washington", start time:date "Saturday, July 5, 2014 03:05 PM CDT", channel number:"1741", duration:12600, episode:"87 Cubs at Washington"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Washington", start time:date "Sunday, July 6, 2014 12:35 PM CDT", channel number:"1180", duration:12600, episode:"88 Cubs at Washington"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Monday, July 7, 2014 06:10 PM CDT", channel number:"1741", duration:12600, episode:"89 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Tuesday, July 8, 2014 06:10 PM CDT", channel number:"1741", duration:12600, episode:"90 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Wednesday, July 9, 2014 06:10 PM CDT", channel number:"1180", duration:12600, episode:"91 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Thursday, July 10, 2014 11:35 AM CDT", channel number:"1180", duration:12600, episode:"92 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Atlanta", start time:date "Friday, July 11, 2014 03:05 PM CDT", channel number:"1741", duration:12600, episode:"93 Cubs vs. Atlanta"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Atlanta", start time:date "Saturday, July 12, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"94 Cubs vs. Atlanta"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Atlanta", start time:date "Sunday, July 13, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"95 Cubs vs. Atlanta"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Arizona", start time:date "Friday, July 18, 2014 08:40 PM CDT", channel number:"1741", duration:12600, episode:"96 Cubs at Arizona"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Arizona", start time:date "Saturday, July 19, 2014 07:10 PM CDT", channel number:"1180", duration:12600, episode:"97 Cubs at Arizona"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Arizona", start time:date "Sunday, July 20, 2014 03:10 PM CDT", channel number:"1180", duration:12600, episode:"98 Cubs at Arizona"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. San Diego", start time:date "Tuesday, July 22, 2014 07:05 PM CDT", channel number:"1742", duration:12600, episode:"99 Cubs vs. San Diego"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. San Diego", start time:date "Wednesday, July 23, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"100 Cubs vs. San Diego"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. San Diego", start time:date "Thursday, July 24, 2014 07:05 PM CDT", channel number:"1180", duration:12600, episode:"101 Cubs vs. San Diego"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Friday, July 25, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"102 Cubs vs. St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Saturday, July 26, 2014 03:05 PM CDT", channel number:"1741", duration:12600, episode:"103 Cubs vs. St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Colorado", start time:date "Monday, July 28, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"105 Cubs vs. Colorado"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Colorado", start time:date "Tuesday, July 29, 2014 07:05 PM CDT", channel number:"1180", duration:12600, episode:"106 Cubs vs. Colorado"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Colorado", start time:date "Wednesday, July 30, 2014 07:05 PM CDT", channel number:"1742", duration:12600, episode:"107 Cubs vs. Colorado"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Colorado", start time:date "Thursday, July 31, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"108 Cubs vs. Colorado"}
+
+make new program with properties {title:"MLB Baseball: Cubs at LA Dodgers", start time:date "Friday, August 1, 2014 09:10 PM CDT", channel number:"1180", duration:12600, episode:"109 Cubs at LA Dodgers"}
+
+make new program with properties {title:"MLB Baseball: Cubs at LA Dodgers", start time:date "Saturday, August 2, 2014 08:10 PM CDT", channel number:"1741", duration:12600, episode:"110 Cubs at LA Dodgers"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Colorado", start time:date "Tuesday, August 5, 2014 07:40 PM CDT", channel number:"1742", duration:12600, episode:"112 Cubs at Colorado"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Colorado", start time:date "Wednesday, August 6, 2014 07:40 PM CDT", channel number:"1741", duration:12600, episode:"113 Cubs at Colorado"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Colorado", start time:date "Thursday, August 7, 2014 02:10 PM CDT", channel number:"1180", duration:12600, episode:"114 Cubs at Colorado"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Tampa Bay", start time:date "Friday, August 8, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"115 Cubs vs. Tampa Bay"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Tampa Bay", start time:date "Saturday, August 9, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"116 Cubs vs. Tampa Bay"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Tampa Bay", start time:date "Sunday, August 10, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"117 Cubs vs. Tampa Bay"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Monday, August 11, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"118 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Tuesday, August 12, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"119 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Wednesday, August 13, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"120 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Thursday, August 14, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"121 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at NY Mets", start time:date "Friday, August 15, 2014 06:10 PM CDT", channel number:"1180", duration:12600, episode:"122 Cubs at NY Mets"}
+
+make new program with properties {title:"MLB Baseball: Cubs at NY Mets", start time:date "Saturday, August 16, 2014 06:10 PM CDT", channel number:"1180", duration:12600, episode:"123 Cubs at NY Mets"}
+
+make new program with properties {title:"MLB Baseball: Cubs at NY Mets", start time:date "Sunday, August 17, 2014 12:10 PM CDT", channel number:"1741", duration:12600, episode:"124 Cubs at NY Mets"}
+
+make new program with properties {title:"MLB Baseball: Cubs at NY Mets", start time:date "Monday, August 18, 2014 11:10 AM CDT", channel number:"1741", duration:12600, episode:"125 Cubs at NY Mets"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. San Francisco", start time:date "Tuesday, August 19, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"126 Cubs vs. San Francisco"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. San Francisco", start time:date "Thursday, August 21, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"128 Cubs vs. San Francisco"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Baltimore", start time:date "Friday, August 22, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"129 Cubs vs. Baltimore"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Baltimore", start time:date "Saturday, August 23, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"130 Cubs vs. Baltimore"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Baltimore", start time:date "Sunday, August 24, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"131 Cubs vs. Baltimore"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Tuesday, August 26, 2014 06:10 PM CDT", channel number:"1741", duration:12600, episode:"132 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Wednesday, August 27, 2014 06:10 PM CDT", channel number:"1741", duration:12600, episode:"133 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Thursday, August 28, 2014 11:35 AM CDT", channel number:"1180", duration:12600, episode:"134 Cubs at Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Friday, August 29, 2014 07:15 PM CDT", channel number:"1180", duration:12600, episode:"135 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Saturday, August 30, 2014 06:15 PM CDT", channel number:"1741", duration:12600, episode:"136 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Sunday, August 31, 2014 01:15 PM CDT", channel number:"1180", duration:12600, episode:"137 Cubs at St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Monday, September 1, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"138 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Tuesday, September 2, 2014 07:05 PM CDT", channel number:"1742", duration:12600, episode:"139 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Wednesday, September 3, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"140 Cubs vs. Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Friday, September 5, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"141 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Saturday, September 6, 2014 03:05 PM CDT", channel number:"1741", duration:12600, episode:"142 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Sunday, September 7, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"143 Cubs vs. Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Toronto", start time:date "Monday, September 8, 2014 06:07 PM CDT", channel number:"1180", duration:12600, episode:"144 Cubs at Toronto"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Toronto", start time:date "Tuesday, September 9, 2014 06:07 PM CDT", channel number:"1741", duration:12600, episode:"145 Cubs at Toronto"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Toronto", start time:date "Wednesday, September 10, 2014 06:07 PM CDT", channel number:"1741", duration:12600, episode:"146 Cubs at Toronto"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Friday, September 12, 2014 06:05 PM CDT", channel number:"1741", duration:12600, episode:"147 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Saturday, September 13, 2014 06:05 PM CDT", channel number:"1741", duration:12600, episode:"148 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Sunday, September 14, 2014 12:35 PM CDT", channel number:"1180", duration:12600, episode:"149 Cubs at Pittsburgh"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Monday, September 15, 2014 07:05 PM CDT", channel number:"1742", duration:12600, episode:"150 Cubs vs. Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Tuesday, September 16, 2014 07:05 PM CDT", channel number:"1180", duration:12600, episode:"151 Cubs vs. Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Wednesday, September 17, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"152 Cubs vs. Cincinnati"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. LA Dodgers", start time:date "Thursday, September 18, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"153 Cubs vs. LA Dodgers"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. LA Dodgers", start time:date "Friday, September 19, 2014 01:20 PM CDT", channel number:"1180", duration:12600, episode:"154 Cubs vs. LA Dodgers"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. LA Dodgers", start time:date "Saturday, September 20, 2014 03:05 PM CDT", channel number:"1180", duration:12600, episode:"155 Cubs vs. LA Dodgers"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. LA Dodgers", start time:date "Sunday, September 21, 2014 01:20 PM CDT", channel number:"1741", duration:12600, episode:"156 Cubs vs. LA Dodgers"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Monday, September 22, 2014 07:05 PM CDT", channel number:"1180", duration:12600, episode:"157 Cubs vs. St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Wednesday, September 24, 2014 07:05 PM CDT", channel number:"1741", duration:12600, episode:"159 Cubs vs. St. Louis"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Friday, September 26, 2014 07:10 PM CDT", channel number:"1741", duration:12600, episode:"160 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Saturday, September 27, 2014 06:10 PM CDT", channel number:"1180", duration:12600, episode:"161 Cubs at Milwaukee"}
+
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Sunday, September 28, 2014 01:10 PM CDT", channel number:"1180", duration:12600, episode:"162 Cubs at Milwaukee"}
+
+Run:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
