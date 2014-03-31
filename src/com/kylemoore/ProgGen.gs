@@ -47,7 +47,7 @@ class ProgGen {
 
     var msg = "Hello worlddd"
     logger.info("About to load data file")
-    var myxls = new FileInputStream("resources/2013_TV_Schedule.xls")
+    var myxls = new FileInputStream("resources/2014_TV_Schedule.xls")
     var wb : HSSFWorkbook = new HSSFWorkbook(myxls)
     var sheet : HSSFSheet = wb.getSheetAt(0)
     var rows : List<HSSFRow> = sheet.rowIterator().toList() as List<HSSFRow>
@@ -82,7 +82,7 @@ class ProgGen {
     //now loop and generate a template for each row's data
     for(i in 1..|rows.Count) {
       var theRow = rows.get(i)
-      var gameNumber = theRow.getCell(gameNumberIndex).NumericCellValue as int
+      var gameNumber = theRow.getCell(gameNumberIndex).StringCellValue.toInt() // NumericCellValue as int
       var date = theRow.getCell(dateIndex).StringCellValue
       var opponent = theRow.getCell(opponentIndex).StringCellValue
       var time = theRow.getCell(timeIndex).StringCellValue
