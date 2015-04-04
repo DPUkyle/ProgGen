@@ -9,24 +9,18 @@ uses org.apache.poi.hssf.usermodel.HSSFDateUtil
 uses org.apache.poi.hssf.usermodel.HSSFRow
 uses org.apache.poi.hssf.usermodel.HSSFSheet
 uses org.apache.poi.hssf.usermodel.HSSFWorkbook
-uses sun.nio.ch.ChannelInputStream
-uses java.util.concurrent.ScheduledExecutorService
-uses com.sun.org.apache.xpath.internal.operations.Variable
-uses javax.swing.border.TitledBorder
 
 /**
- * Created with IntelliJ IDEA.
- * User: kmoore
- * Date: 2013/04/20
- * Time: 00:14
- * To change this template use File | Settings | File Templates.
- *
- * Execute with Vark:
+ * To execute with Vark:<br>
  *  aardvark/0.4/bin/vark Run
  */
 class ProgGen {
 
   private static var _logger : Logger as readonly logger
+
+  private final var _blacklist = {TVStationEnum.ABC7,
+                                  TVStationEnum.WCIU,
+                                  TVStationEnum.WPWR}
 
 //  static function Main(args : String[]) : void {
 //    var msg = "Hi"
@@ -38,9 +32,15 @@ class ProgGen {
 
 //  }
 
+  public static function main(args : String[]) {
+    new ProgGen()
+  }
+
   construct() {
     _logger = LogManager.getLogger("") // root logger
+    logger.info("Instantiating ProgGen")
     init()
+    logger.info("Finished ProgGen")
   }
 
   private function init() {
@@ -48,7 +48,7 @@ class ProgGen {
     var msg = "Hello worlddd"
     logger.info("About to load data file")
     var myxls = new FileInputStream("resources/2014_TV_Schedule.xls")
-    var wb : HSSFWorkbook = new HSSFWorkbook(myxls)
+    var wb : HSSFWorkbook = new HSSFWorkbook(myxls) //Note, this line may fail if the workbook still has a filter on the columns
     var sheet : HSSFSheet = wb.getSheetAt(0)
     var rows : List<HSSFRow> = sheet.rowIterator().toList() as List<HSSFRow>
 
@@ -86,14 +86,16 @@ class ProgGen {
       var date = theRow.getCell(dateIndex).StringCellValue
       var opponent = theRow.getCell(opponentIndex).StringCellValue
       var time = theRow.getCell(timeIndex).StringCellValue
+//      HSSFDateUtil.convertTime("")
       var channel : TVStationEnum = TVStationEnum.valueOf(theRow.getCell(channelIndex).StringCellValue)
 
       var opponentString = " Cubs " + (opponent.contains("@") ? "at ${opponent.remove("@")}" : opponent)
       var titleString = "MLB Baseball:".concat(opponentString)
       var episodeString = (gameNumber as String).concat(opponentString)
-      var dateTimeString = date + " " + time + " CDT"
+      var dateTimeString = date + " " + time + " CDT" //TODO no longer working.  Ideal date should be like 'date "Sunday, April 5, 2015 at 13:20:00"' with no TZ info.
 
-      if(time != "TBD" and channel != WCIU) {
+
+      if(time != "TBD" and !_blacklist.contains(channel)) {
         print(new Schedule().renderToString(titleString, episodeString, dateTimeString, channel.ChannelNumber as String, "12600"))
       }
     }
