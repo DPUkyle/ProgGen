@@ -9,4 +9,12 @@ public interface IProgram {
     String getOpponent();
     TVStation getChannel();
 
+    default String debugString() {
+        return  "-- " +
+                "ordinal: " + getOrdinal() +
+                ", date: " + getDate().toString() +
+                ", opponent: " + getOpponent() +
+                ", channel: " + getChannel();
+    }
+
 }
