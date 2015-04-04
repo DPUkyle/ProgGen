@@ -4,19 +4,15 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatterBuilder;
-import java.util.Date;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -24,14 +20,10 @@ public class ExcelReader implements IReader {
 
     private File _file = null;
     private ISchedule _schedule = null;
-
-//    public ExcelReader(String fileName) {
-//        //do something
-//    }
+    private List<TVStation> _blacklist = Arrays.asList(TVStation.ABC7, TVStation.WCIU, TVStation.WPWR);
 
     public ExcelReader(File file) throws FileNotFoundException {
-     //do something
-           _file = file;
+        _file = file;
         if(!file.exists()) {
             throw new FileNotFoundException(file.getAbsolutePath());
         }
@@ -41,7 +33,6 @@ public class ExcelReader implements IReader {
     public ISchedule read() {
         _schedule = new Schedule();
 
-        //read a row, then
         try {
             FileInputStream myxls = new FileInputStream(_file);
             HSSFWorkbook wb = new HSSFWorkbook(myxls); //Note, this line may fail if the workbook still has a filter on the columns
@@ -65,19 +56,19 @@ public class ExcelReader implements IReader {
                 String time = row.getCell(timeIndex).getStringCellValue();
                 TVStation channel = TVStation.valueOf(row.getCell(channelIndex).getStringCellValue());
 
-                //convert time from CDT to EDT
-                ZonedDateTime localStartTime = DateUtil.joinDateAndTime(date, time);
-                LocalDateTime adjustedStartTime = DateUtil.asEasternTime(localStartTime).toLocalDateTime();
+            if(!time.equalsIgnoreCase("TBD") &&
+               !_blacklist.contains(channel)) {
+                    //convert time from CDT to EDT
+                    ZonedDateTime localStartTime = DateUtil.joinDateAndTime(date, time);
+                    LocalDateTime adjustedStartTime = DateUtil.asEasternTime(localStartTime).toLocalDateTime();
 
-                String opponentString = " Cubs " + (opponent.contains("@") ? "at" + opponent.replace('@', ' ') : opponent);
-
-
-                _schedule.addProgram(gameNumber, adjustedStartTime, opponent, channel);
+                    _schedule.addProgram(gameNumber, adjustedStartTime, opponent, channel);
+                }
             });
 
 
         } catch (IOException e) {
-
+            throw new Error(e.toString());
         }
 
         return _schedule;
