@@ -1,12 +1,12 @@
 package com.kylemoore;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public interface IProgram {
 
-    int getChannelNumber();
-    Date getDate();
+    int getOrdinal();
+    LocalDateTime getDate();
     String getOpponent();
-    TVStations getChannel();
+    TVStation getChannel();
 
 }

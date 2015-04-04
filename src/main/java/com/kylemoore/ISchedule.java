@@ -1,7 +1,11 @@
 package com.kylemoore;
 
-/**
- * Created by kmoore on 2015-04-04.
- */
+import java.time.LocalDateTime;
+import java.util.List;
+
 public interface ISchedule {
+
+    List<IProgram> getPrograms();
+    void addProgram(int ordinal, LocalDateTime date, String opponent, TVStation channel);
+
 }
