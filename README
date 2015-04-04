@@ -1,6 +1,15 @@
-Gosu project to do AppleScript codegen.
+~~Gosu~~ Java 8 project to do AppleScript codegen.
 
 Goal is to script the generation of EyeTV schedules data-driven by screen-scraped content.
+
+2015 addendum:
+I changed to Java for these reasons:
+* Learn the new Java 8 Date API
+* TZ conversion was giving me major headaches in applescript
+* Use a proper Gradle build
+* Tests!
+
+The old project is moved to the gosu branch.
 
 2014 addendum:
 When screen-scraping the schedule, the Date and Time columns needed special formatting.  I pasted each excel column individually into Sublime Text.
