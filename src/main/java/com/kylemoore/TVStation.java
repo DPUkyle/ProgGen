@@ -1,6 +1,6 @@
 package com.kylemoore;
 
-public enum TVStations {
+public enum TVStation {
     ABC7(-1),
     CSN(1741),
     CSNPLUS(1742),
@@ -14,7 +14,7 @@ public enum TVStations {
 
     private int _channelNumber;
 
-    private TVStations(int channelNumber) {
+    private TVStation(int channelNumber) {
         _channelNumber = channelNumber;
     }
 
