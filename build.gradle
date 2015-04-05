@@ -1,4 +1,3 @@
-// Apply the java plugin to add support for Java
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
@@ -9,9 +8,8 @@ repositories {
 }
 
 dependencies {
-    compile 'org.apache.logging.log4j:log4j-api:2.2'
-    compile 'org.apache.logging.log4j:log4j-core:2.2'
-    compile 'org.apache.poi:poi-ooxml:3.9'
+    compile 'org.jsoup:jsoup:1.8.1'
+    compile 'org.slf4j:slf4j-api:1.7.12'
 
     testCompile 'junit:junit:4.11'
     testCompile 'org.easytesting:fest-assert-core:2.0M10'

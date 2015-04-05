@@ -1,6 +1,6 @@
 ~~Gosu~~ Java 8 project to do AppleScript codegen.
 
-Goal is to script the generation of EyeTV schedules data-driven by screen-scraped content.
+Goal is to script the generation of EyeTV schedules using screen-scraped content via [jsoup](http://jsoup.org/).
 
 2015 addendum:
 I changed to Java for these reasons:
@@ -8,17 +8,4 @@ I changed to Java for these reasons:
 * TZ conversion was giving me major headaches in applescript
 * Use a proper Gradle build
 * Tests!
-
-The old project is moved to the gosu branch.
-
-2014 addendum:
-When screen-scraping the schedule, the Date and Time columns needed special formatting.  I pasted each excel column individually into Sublime Text.
-
-Date:
-Using Sublime Text's multiple line edit feature, it was easy to put ", 2014" at the end of each date value.
-
-Time:
-Also using the multiple line edit, add seconds to each time so all end with :SS
-Finally, use this regex-replace to ensure all hour values have a leading zero:
-Match:      ^(\d\:)
-Replace:    0\1
+* jsoup library - forget Excel!
