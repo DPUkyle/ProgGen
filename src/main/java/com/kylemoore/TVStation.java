@@ -10,7 +10,8 @@ public enum TVStation {
     FS1(1652),
     WCIU(-1),
     WGN(1180),
-    WPWR(-1);
+    WPWR(-1),
+    UNKNOWN(-1);
 
     private int _channelNumber;
 
