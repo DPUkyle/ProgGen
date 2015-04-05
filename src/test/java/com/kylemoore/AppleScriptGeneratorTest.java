@@ -15,7 +15,8 @@ public class AppleScriptGeneratorTest { //implements IAppleScriptGenerator {
     @BeforeClass
     public static void beforeClass() {
         try {
-            _schedule = new ExcelReader(new File("src/test/resources/Test_Schedule.xls")).read();
+            //_schedule = new ExcelReader(new File("src/test/resources/Test_Schedule.xls")).read();
+            _schedule = new HTMLReader(new File("src/test/resources/Test_Schedule.html")).read();
         } catch(Exception e) {
 
         }
