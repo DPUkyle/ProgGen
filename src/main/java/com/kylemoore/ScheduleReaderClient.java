@@ -1,9 +1,14 @@
 package com.kylemoore;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class ScheduleReaderClient {
+
+    //private static final Logger _logger = LoggerFactory.getLogger(ScheduleReaderClient.class);
 
     private IReader _reader = null;
 
@@ -16,19 +21,17 @@ public class ScheduleReaderClient {
     }
 
     public static void main(String... args) {
-        String filename = args[0];
-        File excelFile = new File(filename);
-        System.out.println("excelFile is : " + excelFile.getAbsolutePath());
         try {
-            IReader excelReader = new ExcelReader(excelFile);
-            ScheduleReaderClient client = new ScheduleReaderClient(excelReader);
+            URL url = new URL(args[0]);
+            IReader reader = new HTMLReader(url);
+            ScheduleReaderClient client = new ScheduleReaderClient(reader);
 
             IAppleScriptGenerator generator = new CubsAppleScriptGenerator();
 
             client.fetchData().getPrograms().forEach(p ->
                             System.out.println(generator.generateAppleScript(p))
             );
-        } catch (java.io.FileNotFoundException e) {
+        } catch (MalformedURLException e) {
             throw new Error(e.toString());
         }
     }

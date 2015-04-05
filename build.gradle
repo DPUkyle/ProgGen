@@ -15,8 +15,14 @@ dependencies {
     testCompile 'org.easytesting:fest-assert-core:2.0M10'
 }
 
-task execute(type: JavaExec, dependsOn: compileJava) {
-    args = ['src/main/resources/2015_TV_Schedule.xls']
+//task parseExcel(type: JavaExec, dependsOn: compileJava) {
+//    args = ['src/main/resources/2015_TV_Schedule.xls']
+//    classpath = sourceSets.main.runtimeClasspath
+//    main = 'com.kylemoore.ScheduleReaderClient'
+//}
+
+task parseHTML(type: JavaExec, dependsOn: test) {
+    args = ['http://chicago.cubs.mlb.com/schedule/broadcast/index.jsp?c_id=chc']
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.kylemoore.ScheduleReaderClient'
 }

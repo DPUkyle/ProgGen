@@ -1,0 +1,377 @@
+-- ordinal: -1, date: 2015-04-07T20:05, opponent: vs. St. Louis, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Tuesday, April 07, 2015 20:05", channel number:"1180", duration:12600, episode:"2015-04-07 Cubs vs. St. Louis"}
+
+-- ordinal: -1, date: 2015-04-10T16:10, opponent: @Colorado, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Colorado", start time:date "Friday, April 10, 2015 16:10", channel number:"1180", duration:12600, episode:"2015-04-10 Cubs at Colorado"}
+
+-- ordinal: -1, date: 2015-04-11T20:10, opponent: @Colorado, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs at Colorado", start time:date "Saturday, April 11, 2015 20:10", channel number:"1742", duration:12600, episode:"2015-04-11 Cubs at Colorado"}
+
+-- ordinal: -1, date: 2015-04-12T16:10, opponent: @Colorado, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Colorado", start time:date "Sunday, April 12, 2015 16:10", channel number:"1180", duration:12600, episode:"2015-04-12 Cubs at Colorado"}
+
+-- ordinal: -1, date: 2015-04-13T20:05, opponent: vs. Cincinnati, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Monday, April 13, 2015 20:05", channel number:"1742", duration:12600, episode:"2015-04-13 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-04-14T20:05, opponent: vs. Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Tuesday, April 14, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-04-14 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-04-18T14:20, opponent: vs. San Diego, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. San Diego", start time:date "Saturday, April 18, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-04-18 Cubs vs. San Diego"}
+
+-- ordinal: -1, date: 2015-04-19T14:20, opponent: vs. San Diego, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. San Diego", start time:date "Sunday, April 19, 2015 14:20", channel number:"1180", duration:12600, episode:"2015-04-19 Cubs vs. San Diego"}
+
+-- ordinal: -1, date: 2015-04-20T19:05, opponent: @Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Monday, April 20, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-04-20 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-04-21T19:05, opponent: @Pittsburgh, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Tuesday, April 21, 2015 19:05", channel number:"1180", duration:12600, episode:"2015-04-21 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-04-22T19:05, opponent: @Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Wednesday, April 22, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-04-22 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-04-23T12:35, opponent: @Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Thursday, April 23, 2015 12:35", channel number:"1741", duration:12600, episode:"2015-04-23 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-04-24T19:10, opponent: @Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Friday, April 24, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-04-24 Cubs at Cincinnati"}
+
+-- ordinal: -1, date: 2015-04-26T13:10, opponent: @Cincinnati, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Sunday, April 26, 2015 13:10", channel number:"1180", duration:12600, episode:"2015-04-26 Cubs at Cincinnati"}
+
+-- ordinal: -1, date: 2015-04-27T20:05, opponent: vs. Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Monday, April 27, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-04-27 Cubs vs. Pittsburgh"}
+
+-- ordinal: -1, date: 2015-04-29T20:05, opponent: vs. Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Wednesday, April 29, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-04-29 Cubs vs. Pittsburgh"}
+
+-- ordinal: -1, date: 2015-05-01T14:20, opponent: vs. Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Friday, May 01, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-05-01 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-05-02T14:20, opponent: vs. Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Saturday, May 02, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-05-02 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-05-03T14:20, opponent: vs. Milwaukee, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Sunday, May 03, 2015 14:20", channel number:"1180", duration:12600, episode:"2015-05-03 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-05-04T20:10, opponent: @St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Monday, May 04, 2015 20:10", channel number:"1741", duration:12600, episode:"2015-05-04 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-05-05T20:15, opponent: @St. Louis, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Tuesday, May 05, 2015 20:15", channel number:"1180", duration:12600, episode:"2015-05-05 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-05-06T20:15, opponent: @St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Wednesday, May 06, 2015 20:15", channel number:"1741", duration:12600, episode:"2015-05-06 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-05-07T13:45, opponent: @St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Thursday, May 07, 2015 13:45", channel number:"1741", duration:12600, episode:"2015-05-07 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-05-08T20:10, opponent: @Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Friday, May 08, 2015 20:10", channel number:"1741", duration:12600, episode:"2015-05-08 Cubs at Milwaukee"}
+
+-- ordinal: -1, date: 2015-05-09T19:10, opponent: @Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Saturday, May 09, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-05-09 Cubs at Milwaukee"}
+
+-- ordinal: -1, date: 2015-05-10T14:10, opponent: @Milwaukee, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Sunday, May 10, 2015 14:10", channel number:"1180", duration:12600, episode:"2015-05-10 Cubs at Milwaukee"}
+
+-- ordinal: -1, date: 2015-05-11T20:05, opponent: vs. NY Mets, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Mets", start time:date "Monday, May 11, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-05-11 Cubs vs. NY Mets"}
+
+-- ordinal: -1, date: 2015-05-12T20:05, opponent: vs. NY Mets, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Mets", start time:date "Tuesday, May 12, 2015 20:05", channel number:"1742", duration:12600, episode:"2015-05-12 Cubs vs. NY Mets"}
+
+-- ordinal: -1, date: 2015-05-13T20:05, opponent: vs. NY Mets, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Mets", start time:date "Wednesday, May 13, 2015 20:05", channel number:"1180", duration:12600, episode:"2015-05-13 Cubs vs. NY Mets"}
+
+-- ordinal: -1, date: 2015-05-14T14:20, opponent: vs. NY Mets, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. NY Mets", start time:date "Thursday, May 14, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-05-14 Cubs vs. NY Mets"}
+
+-- ordinal: -1, date: 2015-05-15T14:20, opponent: vs. Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Friday, May 15, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-05-15 Cubs vs. Pittsburgh"}
+
+-- ordinal: -1, date: 2015-05-16T16:05, opponent: vs. Pittsburgh, channel: FS1
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Saturday, May 16, 2015 16:05", channel number:"1652", duration:12600, episode:"2015-05-16 Cubs vs. Pittsburgh"}
+
+-- ordinal: -1, date: 2015-05-17T14:20, opponent: vs. Pittsburgh, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Pittsburgh", start time:date "Sunday, May 17, 2015 14:20", channel number:"1180", duration:12600, episode:"2015-05-17 Cubs vs. Pittsburgh"}
+
+-- ordinal: -1, date: 2015-05-19T22:10, opponent: @San Diego, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at San Diego", start time:date "Tuesday, May 19, 2015 22:10", channel number:"1180", duration:12600, episode:"2015-05-19 Cubs at San Diego"}
+
+-- ordinal: -1, date: 2015-05-20T22:10, opponent: @San Diego, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at San Diego", start time:date "Wednesday, May 20, 2015 22:10", channel number:"1741", duration:12600, episode:"2015-05-20 Cubs at San Diego"}
+
+-- ordinal: -1, date: 2015-05-21T21:10, opponent: @San Diego, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs at San Diego", start time:date "Thursday, May 21, 2015 21:10", channel number:"1742", duration:12600, episode:"2015-05-21 Cubs at San Diego"}
+
+-- ordinal: -1, date: 2015-05-22T21:40, opponent: @Arizona, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs at Arizona", start time:date "Friday, May 22, 2015 21:40", channel number:"1742", duration:12600, episode:"2015-05-22 Cubs at Arizona"}
+
+-- ordinal: -1, date: 2015-05-23T22:10, opponent: @Arizona, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Arizona", start time:date "Saturday, May 23, 2015 22:10", channel number:"1741", duration:12600, episode:"2015-05-23 Cubs at Arizona"}
+
+-- ordinal: -1, date: 2015-05-24T16:10, opponent: @Arizona, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Arizona", start time:date "Sunday, May 24, 2015 16:10", channel number:"1180", duration:12600, episode:"2015-05-24 Cubs at Arizona"}
+
+-- ordinal: -1, date: 2015-05-25T14:20, opponent: vs. Washington, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Washington", start time:date "Monday, May 25, 2015 14:20", channel number:"1180", duration:12600, episode:"2015-05-25 Cubs vs. Washington"}
+
+-- ordinal: -1, date: 2015-05-26T19:05, opponent: vs. Washington, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Washington", start time:date "Tuesday, May 26, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-05-26 Cubs vs. Washington"}
+
+-- ordinal: -1, date: 2015-05-27T20:05, opponent: vs. Washington, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs vs. Washington", start time:date "Wednesday, May 27, 2015 20:05", channel number:"1742", duration:12600, episode:"2015-05-27 Cubs vs. Washington"}
+
+-- ordinal: -1, date: 2015-05-29T16:05, opponent: vs. Kansas City, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Kansas City", start time:date "Friday, May 29, 2015 16:05", channel number:"1741", duration:12600, episode:"2015-05-29 Cubs vs. Kansas City"}
+
+-- ordinal: -1, date: 2015-05-30T19:15, opponent: vs. Kansas City, channel: FOX
+make new program with properties {title:"MLB Baseball: Cubs vs. Kansas City", start time:date "Saturday, May 30, 2015 19:15", channel number:"1011", duration:12600, episode:"2015-05-30 Cubs vs. Kansas City"}
+
+-- ordinal: -1, date: 2015-06-01T19:10, opponent: @Miami, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Miami", start time:date "Monday, June 01, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-06-01 Cubs at Miami"}
+
+-- ordinal: -1, date: 2015-06-02T19:10, opponent: @Miami, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Miami", start time:date "Tuesday, June 02, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-06-02 Cubs at Miami"}
+
+-- ordinal: -1, date: 2015-06-04T19:05, opponent: @Washington, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Washington", start time:date "Thursday, June 04, 2015 19:05", channel number:"1180", duration:12600, episode:"2015-06-04 Cubs at Washington"}
+
+-- ordinal: -1, date: 2015-06-05T19:05, opponent: @Washington, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Washington", start time:date "Friday, June 05, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-06-05 Cubs at Washington"}
+
+-- ordinal: -1, date: 2015-06-06T12:05, opponent: @Washington, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Washington", start time:date "Saturday, June 06, 2015 12:05", channel number:"1741", duration:12600, episode:"2015-06-06 Cubs at Washington"}
+
+-- ordinal: -1, date: 2015-06-07T16:05, opponent: @Washington, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Washington", start time:date "Sunday, June 07, 2015 16:05", channel number:"1741", duration:12600, episode:"2015-06-07 Cubs at Washington"}
+
+-- ordinal: -1, date: 2015-06-09T19:08, opponent: @Detroit, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Detroit", start time:date "Tuesday, June 09, 2015 19:08", channel number:"1741", duration:12600, episode:"2015-06-09 Cubs at Detroit"}
+
+-- ordinal: -1, date: 2015-06-10T19:08, opponent: @Detroit, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Detroit", start time:date "Wednesday, June 10, 2015 19:08", channel number:"1741", duration:12600, episode:"2015-06-10 Cubs at Detroit"}
+
+-- ordinal: -1, date: 2015-06-11T20:05, opponent: vs. Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Thursday, June 11, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-06-11 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-06-12T16:05, opponent: vs. Cincinnati, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Friday, June 12, 2015 16:05", channel number:"1180", duration:12600, episode:"2015-06-12 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-06-13T19:15, opponent: vs. Cincinnati, channel: FOX
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Saturday, June 13, 2015 19:15", channel number:"1011", duration:12600, episode:"2015-06-13 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-06-16T20:05, opponent: vs. Cleveland, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Cleveland", start time:date "Tuesday, June 16, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-06-16 Cubs vs. Cleveland"}
+
+-- ordinal: -1, date: 2015-06-17T19:10, opponent: @Cleveland, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs at Cleveland", start time:date "Wednesday, June 17, 2015 19:10", channel number:"1742", duration:12600, episode:"2015-06-17 Cubs at Cleveland"}
+
+-- ordinal: -1, date: 2015-06-18T19:10, opponent: @Cleveland, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Cleveland", start time:date "Thursday, June 18, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-06-18 Cubs at Cleveland"}
+
+-- ordinal: -1, date: 2015-06-19T20:10, opponent: @Minnesota, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Minnesota", start time:date "Friday, June 19, 2015 20:10", channel number:"1180", duration:12600, episode:"2015-06-19 Cubs at Minnesota"}
+
+-- ordinal: -1, date: 2015-06-22T20:05, opponent: vs. LA Dodgers, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. LA Dodgers", start time:date "Monday, June 22, 2015 20:05", channel number:"1180", duration:12600, episode:"2015-06-22 Cubs vs. LA Dodgers"}
+
+-- ordinal: -1, date: 2015-06-23T20:05, opponent: vs. LA Dodgers, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. LA Dodgers", start time:date "Tuesday, June 23, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-06-23 Cubs vs. LA Dodgers"}
+
+-- ordinal: -1, date: 2015-06-24T20:05, opponent: vs. LA Dodgers, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. LA Dodgers", start time:date "Wednesday, June 24, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-06-24 Cubs vs. LA Dodgers"}
+
+-- ordinal: -1, date: 2015-06-27T19:15, opponent: @St. Louis, channel: FOX
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Saturday, June 27, 2015 19:15", channel number:"1011", duration:12600, episode:"2015-06-27 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-06-28T14:15, opponent: @St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Sunday, June 28, 2015 14:15", channel number:"1741", duration:12600, episode:"2015-06-28 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-06-30T19:10, opponent: @NY Mets, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at NY Mets", start time:date "Tuesday, June 30, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-06-30 Cubs at NY Mets"}
+
+-- ordinal: -1, date: 2015-07-01T19:10, opponent: @NY Mets, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at NY Mets", start time:date "Wednesday, July 01, 2015 19:10", channel number:"1180", duration:12600, episode:"2015-07-01 Cubs at NY Mets"}
+
+-- ordinal: -1, date: 2015-07-02T13:10, opponent: @NY Mets, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at NY Mets", start time:date "Thursday, July 02, 2015 13:10", channel number:"1180", duration:12600, episode:"2015-07-02 Cubs at NY Mets"}
+
+-- ordinal: -1, date: 2015-07-03T14:20, opponent: vs. Miami, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Miami", start time:date "Friday, July 03, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-07-03 Cubs vs. Miami"}
+
+-- ordinal: -1, date: 2015-07-04T19:15, opponent: vs. Miami, channel: FOX
+make new program with properties {title:"MLB Baseball: Cubs vs. Miami", start time:date "Saturday, July 04, 2015 19:15", channel number:"1011", duration:12600, episode:"2015-07-04 Cubs vs. Miami"}
+
+-- ordinal: -1, date: 2015-07-06T20:05, opponent: vs. St. Louis, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Monday, July 06, 2015 20:05", channel number:"1180", duration:12600, episode:"2015-07-06 Cubs vs. St. Louis"}
+
+-- ordinal: -1, date: 2015-07-07T20:05, opponent: vs. St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Tuesday, July 07, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-07-07 Cubs vs. St. Louis"}
+
+-- ordinal: -1, date: 2015-07-08T20:05, opponent: vs. St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Wednesday, July 08, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-07-08 Cubs vs. St. Louis"}
+
+-- ordinal: -1, date: 2015-07-10T16:05, opponent: vs. Chi White Sox, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Chi White Sox", start time:date "Friday, July 10, 2015 16:05", channel number:"1741", duration:12600, episode:"2015-07-10 Cubs vs. Chi White Sox"}
+
+-- ordinal: -1, date: 2015-07-17T19:35, opponent: @Atlanta, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Atlanta", start time:date "Friday, July 17, 2015 19:35", channel number:"1741", duration:12600, episode:"2015-07-17 Cubs at Atlanta"}
+
+-- ordinal: -1, date: 2015-07-19T17:05, opponent: @Atlanta, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Atlanta", start time:date "Sunday, July 19, 2015 17:05", channel number:"1180", duration:12600, episode:"2015-07-19 Cubs at Atlanta"}
+
+-- ordinal: -1, date: 2015-07-20T19:10, opponent: @Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Monday, July 20, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-07-20 Cubs at Cincinnati"}
+
+-- ordinal: -1, date: 2015-07-21T19:10, opponent: @Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Tuesday, July 21, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-07-21 Cubs at Cincinnati"}
+
+-- ordinal: -1, date: 2015-07-24T16:05, opponent: vs. Philadelphia, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Philadelphia", start time:date "Friday, July 24, 2015 16:05", channel number:"1180", duration:12600, episode:"2015-07-24 Cubs vs. Philadelphia"}
+
+-- ordinal: -1, date: 2015-07-27T20:05, opponent: vs. Colorado, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs vs. Colorado", start time:date "Monday, July 27, 2015 20:05", channel number:"1742", duration:12600, episode:"2015-07-27 Cubs vs. Colorado"}
+
+-- ordinal: -1, date: 2015-07-28T20:05, opponent: vs. Colorado, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs vs. Colorado", start time:date "Tuesday, July 28, 2015 20:05", channel number:"1742", duration:12600, episode:"2015-07-28 Cubs vs. Colorado"}
+
+-- ordinal: -1, date: 2015-07-29T14:20, opponent: vs. Colorado, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Colorado", start time:date "Wednesday, July 29, 2015 14:20", channel number:"1180", duration:12600, episode:"2015-07-29 Cubs vs. Colorado"}
+
+-- ordinal: -1, date: 2015-07-30T20:10, opponent: @Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Thursday, July 30, 2015 20:10", channel number:"1741", duration:12600, episode:"2015-07-30 Cubs at Milwaukee"}
+
+-- ordinal: -1, date: 2015-07-31T20:10, opponent: @Milwaukee, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Friday, July 31, 2015 20:10", channel number:"1180", duration:12600, episode:"2015-07-31 Cubs at Milwaukee"}
+
+-- ordinal: -1, date: 2015-08-03T19:05, opponent: @Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Monday, August 03, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-08-03 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-08-04T19:05, opponent: @Pittsburgh, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Tuesday, August 04, 2015 19:05", channel number:"1180", duration:12600, episode:"2015-08-04 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-08-05T19:05, opponent: @Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Wednesday, August 05, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-08-05 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-08-06T20:05, opponent: vs. San Francisco, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. San Francisco", start time:date "Thursday, August 06, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-08-06 Cubs vs. San Francisco"}
+
+-- ordinal: -1, date: 2015-08-07T16:05, opponent: vs. San Francisco, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. San Francisco", start time:date "Friday, August 07, 2015 16:05", channel number:"1180", duration:12600, episode:"2015-08-07 Cubs vs. San Francisco"}
+
+-- ordinal: -1, date: 2015-08-11T20:05, opponent: vs. Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Tuesday, August 11, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-08-11 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-08-12T20:05, opponent: vs. Milwaukee, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Wednesday, August 12, 2015 20:05", channel number:"1180", duration:12600, episode:"2015-08-12 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-08-14T16:10, opponent: @Chi White Sox, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Chi White Sox", start time:date "Friday, August 14, 2015 16:10", channel number:"1741", duration:12600, episode:"2015-08-14 Cubs at Chi White Sox"}
+
+-- ordinal: -1, date: 2015-08-16T14:10, opponent: @Chi White Sox, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Chi White Sox", start time:date "Sunday, August 16, 2015 14:10", channel number:"1741", duration:12600, episode:"2015-08-16 Cubs at Chi White Sox"}
+
+-- ordinal: -1, date: 2015-08-20T20:05, opponent: vs. Atlanta, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Atlanta", start time:date "Thursday, August 20, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-08-20 Cubs vs. Atlanta"}
+
+-- ordinal: -1, date: 2015-08-21T16:05, opponent: vs. Atlanta, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Atlanta", start time:date "Friday, August 21, 2015 16:05", channel number:"1741", duration:12600, episode:"2015-08-21 Cubs vs. Atlanta"}
+
+-- ordinal: -1, date: 2015-08-23T14:20, opponent: vs. Atlanta, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Atlanta", start time:date "Sunday, August 23, 2015 14:20", channel number:"1180", duration:12600, episode:"2015-08-23 Cubs vs. Atlanta"}
+
+-- ordinal: -1, date: 2015-08-25T22:15, opponent: @San Francisco, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at San Francisco", start time:date "Tuesday, August 25, 2015 22:15", channel number:"1180", duration:12600, episode:"2015-08-25 Cubs at San Francisco"}
+
+-- ordinal: -1, date: 2015-08-26T22:15, opponent: @San Francisco, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at San Francisco", start time:date "Wednesday, August 26, 2015 22:15", channel number:"1741", duration:12600, episode:"2015-08-26 Cubs at San Francisco"}
+
+-- ordinal: -1, date: 2015-08-27T15:45, opponent: @San Francisco, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at San Francisco", start time:date "Thursday, August 27, 2015 15:45", channel number:"1741", duration:12600, episode:"2015-08-27 Cubs at San Francisco"}
+
+-- ordinal: -1, date: 2015-08-28T22:10, opponent: @LA Dodgers, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at LA Dodgers", start time:date "Friday, August 28, 2015 22:10", channel number:"1180", duration:12600, episode:"2015-08-28 Cubs at LA Dodgers"}
+
+-- ordinal: -1, date: 2015-08-29T21:10, opponent: @LA Dodgers, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at LA Dodgers", start time:date "Saturday, August 29, 2015 21:10", channel number:"1180", duration:12600, episode:"2015-08-29 Cubs at LA Dodgers"}
+
+-- ordinal: -1, date: 2015-08-31T20:05, opponent: vs. Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Monday, August 31, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-08-31 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-09-01T20:05, opponent: vs. Cincinnati, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Tuesday, September 01, 2015 20:05", channel number:"1180", duration:12600, episode:"2015-09-01 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-09-02T14:20, opponent: vs. Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Cincinnati", start time:date "Wednesday, September 02, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-09-02 Cubs vs. Cincinnati"}
+
+-- ordinal: -1, date: 2015-09-04T14:20, opponent: vs. Arizona, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Arizona", start time:date "Friday, September 04, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-09-04 Cubs vs. Arizona"}
+
+-- ordinal: -1, date: 2015-09-05T14:20, opponent: vs. Arizona, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Arizona", start time:date "Saturday, September 05, 2015 14:20", channel number:"1741", duration:12600, episode:"2015-09-05 Cubs vs. Arizona"}
+
+-- ordinal: -1, date: 2015-09-06T14:20, opponent: vs. Arizona, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs vs. Arizona", start time:date "Sunday, September 06, 2015 14:20", channel number:"1180", duration:12600, episode:"2015-09-06 Cubs vs. Arizona"}
+
+-- ordinal: -1, date: 2015-09-07T14:15, opponent: @St. Louis, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Monday, September 07, 2015 14:15", channel number:"1180", duration:12600, episode:"2015-09-07 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-09-08T20:15, opponent: @St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Tuesday, September 08, 2015 20:15", channel number:"1741", duration:12600, episode:"2015-09-08 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-09-09T13:45, opponent: @St. Louis, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at St. Louis", start time:date "Wednesday, September 09, 2015 13:45", channel number:"1741", duration:12600, episode:"2015-09-09 Cubs at St. Louis"}
+
+-- ordinal: -1, date: 2015-09-10T19:05, opponent: @Philadelphia, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Philadelphia", start time:date "Thursday, September 10, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-09-10 Cubs at Philadelphia"}
+
+-- ordinal: -1, date: 2015-09-11T19:05, opponent: @Philadelphia, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Philadelphia", start time:date "Friday, September 11, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-09-11 Cubs at Philadelphia"}
+
+-- ordinal: -1, date: 2015-09-12T19:05, opponent: @Philadelphia, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Philadelphia", start time:date "Saturday, September 12, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-09-12 Cubs at Philadelphia"}
+
+-- ordinal: -1, date: 2015-09-13T13:35, opponent: @Philadelphia, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Philadelphia", start time:date "Sunday, September 13, 2015 13:35", channel number:"1180", duration:12600, episode:"2015-09-13 Cubs at Philadelphia"}
+
+-- ordinal: -1, date: 2015-09-15T19:05, opponent: @Pittsburgh, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Tuesday, September 15, 2015 19:05", channel number:"1180", duration:12600, episode:"2015-09-15 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-09-16T19:05, opponent: @Pittsburgh, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Wednesday, September 16, 2015 19:05", channel number:"1741", duration:12600, episode:"2015-09-16 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-09-17T12:35, opponent: @Pittsburgh, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Pittsburgh", start time:date "Thursday, September 17, 2015 12:35", channel number:"1180", duration:12600, episode:"2015-09-17 Cubs at Pittsburgh"}
+
+-- ordinal: -1, date: 2015-09-19T13:05, opponent: vs. St. Louis, channel: FOX
+make new program with properties {title:"MLB Baseball: Cubs vs. St. Louis", start time:date "Saturday, September 19, 2015 13:05", channel number:"1011", duration:12600, episode:"2015-09-19 Cubs vs. St. Louis"}
+
+-- ordinal: -1, date: 2015-09-21T20:05, opponent: vs. Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Monday, September 21, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-09-21 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-09-22T20:05, opponent: vs. Milwaukee, channel: CSNPLUS
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Tuesday, September 22, 2015 20:05", channel number:"1742", duration:12600, episode:"2015-09-22 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-09-23T20:05, opponent: vs. Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs vs. Milwaukee", start time:date "Wednesday, September 23, 2015 20:05", channel number:"1741", duration:12600, episode:"2015-09-23 Cubs vs. Milwaukee"}
+
+-- ordinal: -1, date: 2015-09-29T19:10, opponent: @Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Tuesday, September 29, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-09-29 Cubs at Cincinnati"}
+
+-- ordinal: -1, date: 2015-09-30T19:10, opponent: @Cincinnati, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Wednesday, September 30, 2015 19:10", channel number:"1180", duration:12600, episode:"2015-09-30 Cubs at Cincinnati"}
+
+-- ordinal: -1, date: 2015-10-01T12:35, opponent: @Cincinnati, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Cincinnati", start time:date "Thursday, October 01, 2015 12:35", channel number:"1741", duration:12600, episode:"2015-10-01 Cubs at Cincinnati"}
+
+-- ordinal: -1, date: 2015-10-02T20:10, opponent: @Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Friday, October 02, 2015 20:10", channel number:"1741", duration:12600, episode:"2015-10-02 Cubs at Milwaukee"}
+
+-- ordinal: -1, date: 2015-10-03T19:10, opponent: @Milwaukee, channel: CSN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Saturday, October 03, 2015 19:10", channel number:"1741", duration:12600, episode:"2015-10-03 Cubs at Milwaukee"}
+
+-- ordinal: -1, date: 2015-10-04T15:10, opponent: @Milwaukee, channel: WGN
+make new program with properties {title:"MLB Baseball: Cubs at Milwaukee", start time:date "Sunday, October 04, 2015 15:10", channel number:"1180", duration:12600, episode:"2015-10-04 Cubs at Milwaukee"}
