@@ -9,3 +9,8 @@ I changed to Java for these reasons:
 * Use a proper Gradle build
 * Tests!
 * jsoup library - forget Excel!
+
+TODO:
+* slf4j binding
+* output to an actual file
+* look into CI... maybe allowing this to run automatically every day?
