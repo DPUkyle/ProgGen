@@ -19,3 +19,4 @@ public class Schedule implements ISchedule {
     }
 
 }
+} //intentional compile fail to test build break notification
